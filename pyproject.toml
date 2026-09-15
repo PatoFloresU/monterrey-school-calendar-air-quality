@@ -1,0 +1,38 @@
+[project]
+
+#Project metadata
+name = "monterrey-school-calendar-air-quality"
+version = "1.0.0"
+description = "Analysis code and results for the article School Calendars and Morning Air Quality in Monterrey, Mexico: A Within-Day Analysis of the School-Arrival Window (ACESD 2026)"
+readme = "README.md"
+license = "GPL-3.0-only"
+authors = [
+  { name = "Patricio Flores Uribe", email = "A01751763@tec.mx" },
+  { name = "Raúl Gómez Muñoz", email = "rgomez@tec.mx" },
+  { name = "Blanca Rosa Ruiz Hernández", email = "bruiz@tec.mx" }
+]
+
+# Python requirements
+requires-python = ">=3.11"
+
+# Runtime dependencies
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.5",
+    "python-calamine>=0.8.2",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+    "torch>=2.14.0",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "ipython>=9.17.1",
+]

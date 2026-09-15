@@ -12,6 +12,8 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .DS_Store
+# Local environment created by uv sync
+.venv/
 # MIMA training log
 data_processed/mima/mima_run.log
 # Build template for README.md (not part of the public repository)
