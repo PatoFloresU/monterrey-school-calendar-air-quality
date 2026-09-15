@@ -1,0 +1,132 @@
+{
+  "placebo_vacaciones": {
+    "por_var": {
+      "l_CO": {
+        "beta": -0.055,
+        "se": 0.0642,
+        "pct": -5.35,
+        "ci_lo_pct": -16.54,
+        "ci_hi_pct": 7.34,
+        "p": 0.391411
+      },
+      "l_NO2": {
+        "beta": -0.0477,
+        "se": 0.0549,
+        "pct": -4.66,
+        "ci_lo_pct": -14.39,
+        "ci_hi_pct": 6.17,
+        "p": 0.384736
+      },
+      "l_O3": {
+        "beta": -0.0748,
+        "se": 0.0791,
+        "pct": -7.21,
+        "ci_lo_pct": -20.53,
+        "ci_hi_pct": 8.35,
+        "p": 0.343951
+      },
+      "l_PM10": {
+        "beta": 0.0667,
+        "se": 0.0927,
+        "pct": 6.9,
+        "ci_lo_pct": -10.87,
+        "ci_hi_pct": 28.2,
+        "p": 0.472063
+      },
+      "l_PM2.5": {
+        "beta": 0.1011,
+        "se": 0.0865,
+        "pct": 10.64,
+        "ci_lo_pct": -6.62,
+        "ci_hi_pct": 31.09,
+        "p": 0.242656
+      }
+    },
+    "wald_chi2": 3.67,
+    "p_chi2": 0.5983,
+    "G_clusters": 35,
+    "n": 1272,
+    "k": 18
+  },
+  "placebo_clases": {
+    "por_var": {
+      "l_CO": {
+        "beta": -0.0054,
+        "se": 0.0477,
+        "pct": -0.54,
+        "ci_lo_pct": -9.41,
+        "ci_hi_pct": 9.2,
+        "p": 0.909632
+      },
+      "l_NO2": {
+        "beta": 0.0129,
+        "se": 0.037,
+        "pct": 1.3,
+        "ci_lo_pct": -5.79,
+        "ci_hi_pct": 8.92,
+        "p": 0.727167
+      },
+      "l_O3": {
+        "beta": -0.0432,
+        "se": 0.0445,
+        "pct": -4.23,
+        "ci_lo_pct": -12.22,
+        "ci_hi_pct": 4.5,
+        "p": 0.331407
+      },
+      "l_PM10": {
+        "beta": -0.0018,
+        "se": 0.0523,
+        "pct": -0.18,
+        "ci_lo_pct": -9.91,
+        "ci_hi_pct": 10.6,
+        "p": 0.972468
+      },
+      "l_PM2.5": {
+        "beta": -0.0251,
+        "se": 0.0441,
+        "pct": -2.48,
+        "ci_lo_pct": -10.56,
+        "ci_hi_pct": 6.33,
+        "p": 0.568746
+      }
+    },
+    "wald_chi2": 2.62,
+    "p_chi2": 0.758018,
+    "G_clusters": 132,
+    "n": 5304,
+    "k": 24
+  },
+  "loso": {
+    "sin_CENTRO": {
+      "p_conjunto": 0.283671,
+      "CO_pct": 7.53,
+      "NO2_pct": 9.82
+    },
+    "sin_NORESTE3": {
+      "p_conjunto": 0.314294,
+      "CO_pct": 6.75,
+      "NO2_pct": 10.35
+    },
+    "sin_NOROESTE3": {
+      "p_conjunto": 0.197889,
+      "CO_pct": 9.08,
+      "NO2_pct": 9.65
+    },
+    "sin_NORTE2": {
+      "p_conjunto": 0.357353,
+      "CO_pct": 6.7,
+      "NO2_pct": 10.25
+    },
+    "sin_SUR": {
+      "p_conjunto": 0.356457,
+      "CO_pct": 6.8,
+      "NO2_pct": 8.89
+    },
+    "sin_SUROESTE2": {
+      "p_conjunto": 0.384413,
+      "CO_pct": 6.15,
+      "NO2_pct": 9.99
+    }
+  }
+}

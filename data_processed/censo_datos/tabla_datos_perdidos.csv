@@ -1,0 +1,7 @@
+estacion,horas_esperadas,faltante_CO_pct,faltante_NO2_pct,faltante_O3_pct,faltante_PM10_pct,faltante_PM2.5_pct
+CENTRO,26304,8.1,3.1,3.9,2.3,15.0
+NORESTE3,26304,1.2,3.0,0.2,0.1,2.9
+NOROESTE3,26304,0.2,1.0,0.7,0.1,14.2
+NORTE2,26304,0.2,0.2,0.7,0.3,1.1
+SUR,26304,0.1,0.1,0.1,0.1,0.1
+SUROESTE2,26304,0.3,0.1,0.6,0.2,3.1

@@ -1,0 +1,9 @@
+,SAITS,SAITS+CSDI(ens10)
+n_celdas_evaluadas,104557.0,104557.0
+MAE,6.2467,6.2509
+RMSE,12.2094,12.2095
+MRE_pct,31.16,31.11
+R2,0.8072,0.8072
+Pearson,0.8988,0.8988
+viol_fisica_PM_pct,0.42,0.39
+quimica_NO2_O3_corr,-0.2737,-0.2737

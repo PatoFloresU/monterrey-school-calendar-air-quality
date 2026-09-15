@@ -1,0 +1,18 @@
+# SIMA measurements are not redistributed (SIMA provided them for this study on the
+# condition that they are not disseminated): neither the annual workbooks nor any
+# measurement series built from them, at any resolution. Obtain the workbooks from SIMA,
+# place them in data_raw/ and run notebook 00 to rebuild every file listed here.
+data_raw/
+data_processed/base_horaria_*.csv.gz
+data_processed/datos_horarios_imputados_*.csv.gz
+data_processed/panel_pico_*.csv
+data_processed/gaps_franjas_*.csv
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+# MIMA training log
+data_processed/mima/mima_run.log
+# Build template for README.md (not part of the public repository)
+README_plantilla.md

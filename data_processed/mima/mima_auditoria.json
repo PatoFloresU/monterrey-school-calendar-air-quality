@@ -1,0 +1,25 @@
+{
+  "saits": {
+    "tag": "SAITS",
+    "n_celdas_evaluadas": 104557,
+    "MAE": 6.2467,
+    "RMSE": 12.2094,
+    "MRE_pct": 31.16,
+    "R2": 0.8072,
+    "Pearson": 0.8988,
+    "viol_fisica_PM_pct": 0.42,
+    "quimica_NO2_O3_corr": -0.2737
+  },
+  "saits_csdi_ens10": {
+    "tag": "SAITS+CSDI(ens10)",
+    "n_celdas_evaluadas": 104557,
+    "MAE": 6.2509,
+    "RMSE": 12.2095,
+    "MRE_pct": 31.11,
+    "R2": 0.8072,
+    "Pearson": 0.8988,
+    "viol_fisica_PM_pct": 0.39,
+    "quimica_NO2_O3_corr": -0.2737
+  },
+  "nota": "La etapa CSDI, tal como está codificada en el modelo original, no altera las métricas (ensamble de 10 refinamientos); la imputación final del análisis es el SAITS determinista."
+}

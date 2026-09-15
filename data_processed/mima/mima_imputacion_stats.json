@@ -1,0 +1,32 @@
+{
+  "CENTRO": {
+    "celdas_imputadas": 8513,
+    "pct_imputado": 6.47,
+    "negativos_recortados": 1
+  },
+  "NORESTE3": {
+    "celdas_imputadas": 1940,
+    "pct_imputado": 1.48,
+    "negativos_recortados": 0
+  },
+  "NOROESTE3": {
+    "celdas_imputadas": 4287,
+    "pct_imputado": 3.26,
+    "negativos_recortados": 5
+  },
+  "NORTE2": {
+    "celdas_imputadas": 649,
+    "pct_imputado": 0.49,
+    "negativos_recortados": 6
+  },
+  "SUR": {
+    "celdas_imputadas": 144,
+    "pct_imputado": 0.11,
+    "negativos_recortados": 0
+  },
+  "SUROESTE2": {
+    "celdas_imputadas": 1161,
+    "pct_imputado": 0.88,
+    "negativos_recortados": 0
+  }
+}

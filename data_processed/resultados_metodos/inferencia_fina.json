@@ -1,0 +1,454 @@
+{
+  "M1_SUR_hibrido": {
+    "wild_bootstrap": {
+      "B": 999,
+      "G_clusters": 158,
+      "p_conjunto": 0.442,
+      "por_var": {
+        "CO": {
+          "pct": 7.16,
+          "p_boot": 0.257
+        },
+        "NO2": {
+          "pct": 9.82,
+          "p_boot": 0.059
+        },
+        "O3": {
+          "pct": -7.71,
+          "p_boot": 0.288
+        },
+        "PM10": {
+          "pct": 5.78,
+          "p_boot": 0.428
+        },
+        "PM2.5": {
+          "pct": 1.29,
+          "p_boot": 0.83
+        }
+      }
+    },
+    "romano_wolf": {
+      "CO": 0.668,
+      "NO2": 0.253,
+      "O3": 0.668,
+      "PM10": 0.668,
+      "PM2.5": 0.83
+    },
+    "equivalencia": {
+      "CO": {
+        "cota_sup_95_pct": 18.1,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.3293,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0278,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "NO2": {
+        "cota_sup_95_pct": 18.8,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.4866,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0315,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "O3": {
+        "cota_sup_95_pct": 3.6,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.4153,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0737,
+            "rechaza_ese_tamano": false
+          }
+        }
+      },
+      "PM10": {
+        "cota_sup_95_pct": 18.0,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.2785,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0291,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "PM2.5": {
+        "cota_sup_95_pct": 10.7,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0627,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0008,
+            "rechaza_ese_tamano": true
+          }
+        }
+      }
+    }
+  },
+  "M2_franjas_hibrido": {
+    "wild_bootstrap": {
+      "B": 999,
+      "G_clusters": 158,
+      "p_conjunto": 0.005,
+      "por_var": {
+        "CO": {
+          "pct": 4.56,
+          "p_boot": 0.005
+        },
+        "NO2": {
+          "pct": 1.02,
+          "p_boot": 0.834
+        },
+        "O3": {
+          "pct": -2.61,
+          "p_boot": 0.646
+        },
+        "PM10": {
+          "pct": -0.54,
+          "p_boot": 0.853
+        },
+        "PM2.5": {
+          "pct": 0.52,
+          "p_boot": 0.85
+        }
+      }
+    },
+    "romano_wolf": {
+      "CO": 0.021,
+      "NO2": 0.988,
+      "O3": 0.979,
+      "PM10": 0.988,
+      "PM2.5": 0.988
+    },
+    "equivalencia": {
+      "CO": {
+        "cota_sup_95_pct": 7.2,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0004,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "NO2": {
+        "cota_sup_95_pct": 7.5,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0117,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "O3": {
+        "cota_sup_95_pct": 6.7,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.1078,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0025,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "PM10": {
+        "cota_sup_95_pct": 4.0,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0004,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "PM2.5": {
+        "cota_sup_95_pct": 4.9,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0002,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      }
+    }
+  },
+  "M1_SUR_MIMA": {
+    "wild_bootstrap": {
+      "B": 999,
+      "G_clusters": 158,
+      "p_conjunto": 0.477,
+      "por_var": {
+        "CO": {
+          "pct": 6.78,
+          "p_boot": 0.288
+        },
+        "NO2": {
+          "pct": 9.68,
+          "p_boot": 0.062
+        },
+        "O3": {
+          "pct": -6.96,
+          "p_boot": 0.329
+        },
+        "PM10": {
+          "pct": 5.83,
+          "p_boot": 0.422
+        },
+        "PM2.5": {
+          "pct": 1.17,
+          "p_boot": 0.851
+        }
+      }
+    },
+    "romano_wolf": {
+      "CO": 0.707,
+      "NO2": 0.266,
+      "O3": 0.707,
+      "PM10": 0.707,
+      "PM2.5": 0.851
+    },
+    "equivalencia": {
+      "CO": {
+        "cota_sup_95_pct": 17.8,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.309,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0251,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "NO2": {
+        "cota_sup_95_pct": 18.7,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.4759,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.03,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "O3": {
+        "cota_sup_95_pct": 4.2,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.3685,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0549,
+            "rechaza_ese_tamano": false
+          }
+        }
+      },
+      "PM10": {
+        "cota_sup_95_pct": 18.1,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.2807,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0294,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "PM2.5": {
+        "cota_sup_95_pct": 10.8,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0656,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.001,
+            "rechaza_ese_tamano": true
+          }
+        }
+      }
+    }
+  },
+  "M2_franjas_MIMA": {
+    "wild_bootstrap": {
+      "B": 999,
+      "G_clusters": 158,
+      "p_conjunto": 0.008,
+      "por_var": {
+        "CO": {
+          "pct": 4.37,
+          "p_boot": 0.009
+        },
+        "NO2": {
+          "pct": 0.76,
+          "p_boot": 0.885
+        },
+        "O3": {
+          "pct": -2.11,
+          "p_boot": 0.708
+        },
+        "PM10": {
+          "pct": -0.7,
+          "p_boot": 0.809
+        },
+        "PM2.5": {
+          "pct": 1.29,
+          "p_boot": 0.656
+        }
+      }
+    },
+    "romano_wolf": {
+      "CO": 0.029,
+      "NO2": 0.983,
+      "O3": 0.983,
+      "PM10": 0.983,
+      "PM2.5": 0.983
+    },
+    "equivalencia": {
+      "CO": {
+        "cota_sup_95_pct": 7.0,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0003,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "NO2": {
+        "cota_sup_95_pct": 7.3,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0112,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "O3": {
+        "cota_sup_95_pct": 7.2,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0896,
+            "rechaza_ese_tamano": false
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0017,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "PM10": {
+        "cota_sup_95_pct": 3.8,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0006,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      },
+      "PM2.5": {
+        "cota_sup_95_pct": 6.0,
+        "tost": {
+          "ref_10pct": {
+            "delta_pct": 10.0,
+            "p_equivalencia": 0.0013,
+            "rechaza_ese_tamano": true
+          },
+          "ref_20pct": {
+            "delta_pct": 20.0,
+            "p_equivalencia": 0.0,
+            "rechaza_ese_tamano": true
+          }
+        }
+      }
+    }
+  }
+}
