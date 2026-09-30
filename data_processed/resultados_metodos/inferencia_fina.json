@@ -70,13 +70,13 @@
         "tost": {
           "ref_10pct": {
             "delta_pct": 10.0,
-            "p_equivalencia": 0.4153,
+            "p_equivalencia": 0.3607,
             "rechaza_ese_tamano": false
           },
           "ref_20pct": {
             "delta_pct": 20.0,
-            "p_equivalencia": 0.0737,
-            "rechaza_ese_tamano": false
+            "p_equivalencia": 0.0213,
+            "rechaza_ese_tamano": true
           }
         }
       },
@@ -183,12 +183,12 @@
         "tost": {
           "ref_10pct": {
             "delta_pct": 10.0,
-            "p_equivalencia": 0.1078,
+            "p_equivalencia": 0.078,
             "rechaza_ese_tamano": false
           },
           "ref_20pct": {
             "delta_pct": 20.0,
-            "p_equivalencia": 0.0025,
+            "p_equivalencia": 0.0002,
             "rechaza_ese_tamano": true
           }
         }
@@ -198,7 +198,7 @@
         "tost": {
           "ref_10pct": {
             "delta_pct": 10.0,
-            "p_equivalencia": 0.0004,
+            "p_equivalencia": 0.0001,
             "rechaza_ese_tamano": true
           },
           "ref_20pct": {
@@ -296,13 +296,13 @@
         "tost": {
           "ref_10pct": {
             "delta_pct": 10.0,
-            "p_equivalencia": 0.3685,
+            "p_equivalencia": 0.315,
             "rechaza_ese_tamano": false
           },
           "ref_20pct": {
             "delta_pct": 20.0,
-            "p_equivalencia": 0.0549,
-            "rechaza_ese_tamano": false
+            "p_equivalencia": 0.0142,
+            "rechaza_ese_tamano": true
           }
         }
       },
@@ -409,12 +409,12 @@
         "tost": {
           "ref_10pct": {
             "delta_pct": 10.0,
-            "p_equivalencia": 0.0896,
+            "p_equivalencia": 0.0636,
             "rechaza_ese_tamano": false
           },
           "ref_20pct": {
             "delta_pct": 20.0,
-            "p_equivalencia": 0.0017,
+            "p_equivalencia": 0.0001,
             "rechaza_ese_tamano": true
           }
         }
@@ -424,7 +424,7 @@
         "tost": {
           "ref_10pct": {
             "delta_pct": 10.0,
-            "p_equivalencia": 0.0006,
+            "p_equivalencia": 0.0001,
             "rechaza_ese_tamano": true
           },
           "ref_20pct": {

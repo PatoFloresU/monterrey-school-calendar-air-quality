@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or its results, please cite the repository as below."
 type: software
 title: "Monterrey school calendars and morning air quality: analysis code and results"
-version: 1.0.0
-date-released: 2026-09-15
+version: 1.0.1
+date-released: 2026-09-30
 authors:
   - family-names: "Flores Uribe"
     given-names: "Patricio"

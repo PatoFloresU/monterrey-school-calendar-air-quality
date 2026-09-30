@@ -2,7 +2,7 @@
 
 #Project metadata
 name = "monterrey-school-calendar-air-quality"
-version = "1.0.0"
+version = "1.0.1"
 description = "Analysis code and results for the article School Calendars and Morning Air Quality in Monterrey, Mexico: A Within-Day Analysis of the School-Arrival Window (ACESD 2026)"
 readme = "README.md"
 license = "GPL-3.0-only"
